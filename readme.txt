@@ -16,4 +16,7 @@ git init
 例子：
  git commit
  
-
+查看修改日志使用如下命令:
+git log
+如果只想在一行中展示，可以使用如下得命令:
+git log --pretty=oneline
