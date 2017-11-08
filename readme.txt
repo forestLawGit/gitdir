@@ -20,3 +20,9 @@ git init
 git log
 如果只想在一行中展示，可以使用如下得命令:
 git log --pretty=oneline
+
+
+GIT和其他版本控制系统如SVN的一个不同之处就是暂存区的概念
+工作区：就是在你电脑里能够看到的目录，比如当前目录gitdir
+版本库：工作区中有一个隐藏目录.git，这个 不算工作区，而是git的版本库
+git的版本库里存了很多东西，其中最重要的就是称为stage（暂存区）区，还有GIT自动为我们创建一个分支master，以及指向master的一个指针叫HEAD
